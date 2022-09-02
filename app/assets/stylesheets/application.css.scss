@@ -18,9 +18,10 @@
 
 h1 h2 h3{
     font-family: 'PLayfair Display','sans-serif';
+    color:coral;
 }
 
-body,.navbar{
+.navbar,.home-callout{
     
     background: #0f0c29;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
@@ -30,4 +31,11 @@ body,.navbar{
 
 .navbar{
     border:none;
+}
+
+.home-callout{
+    color:coral;
+    margin-top:-20px;
+    padding-top:50px;
+    padding-bottom:100px;
 }
