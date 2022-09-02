@@ -16,11 +16,13 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+// Typography styles
 h1 h2 h3{
     font-family: 'PLayfair Display','sans-serif';
     color:coral;
 }
 
+// Background gradient
 .navbar,.home-callout{
     
     background: #0f0c29;  /* fallback for old browsers */
@@ -29,28 +31,20 @@ h1 h2 h3{
 
 }
 
+// Navbar styles
 .navbar{
     border:none;
 }
 
-.navbar-default .navbar-brand{
+.navbar-default .navbar-brand,.navbar-default .navbar-nav > li > a{
     color:silver;
-}
-
-.navbar-default .navbar-nav > li > a{
-    color:silver;
-}
-
-.navbar-default .navbar-brand:hover{
-    color:silver;
-    opacity:0.75;
-}
-
-.navbar-default .navbar-nav > li > a:hover{
+    &:hover{
         color:silver;
         opacity:0.75;
+    }
 }
 
+// Homepage Styles
 .home-callout{
     color:coral;
     margin-top:-20px;
